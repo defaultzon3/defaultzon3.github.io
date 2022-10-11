@@ -1,4 +1,8 @@
 .App-header .Button, .App-header .Button:hover {
-    color: #fff;
+    color: #fbfbfb;
     background: #1f2d3a;
+}
+
+.Button--primary {
+    color: #fbfbfb;
 }
