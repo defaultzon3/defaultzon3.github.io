@@ -20,5 +20,16 @@
 }
 
 .NotificationsDropdown .Dropdown-toggle.new .Button-icon {
-    color: #fff;
+    color: #fbfbfb;
+}
+
+.App-header .Button:active, .App-header .Button.active, .App-header .Button:focus, .App-header .Button.focus, .App-header .open>.Dropdown-toggle.Button {
+    background: #1f2d3a;
+    color: #fbfbfb;
+}
+
+.sideNav .Dropdown--select .Dropdown-menu>li.active>a {
+    background: none;
+    color: #fbfbfb;
+    font-weight: bold;
 }
