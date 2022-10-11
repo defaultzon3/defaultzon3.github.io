@@ -6,3 +6,12 @@
 .Button--primary {
     color: #fbfbfb;
 }
+
+.App-header .FormControl {
+    background: #fbfbfb;
+}
+
+.App-header .FormControl:focus {
+    background: #fbfbfb;
+    color: #333;
+}
