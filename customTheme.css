@@ -4,6 +4,12 @@
     text-decoration: none;
 }
 
+a {
+    cursor: pointer;
+    color: var(--heading-color);
+    text-decoration: none;
+}
+
 .App-header .Button, .App-header .Button:hover {
     color: #fff;
     background-color: var(--header-bg);
