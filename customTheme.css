@@ -53,8 +53,8 @@ a {
     color: #333;
 }
 
-.new .NotificationsDropdown-unread {
-    background: #fff;
+.TagLabel.colored .TagLabel-text {
+  color: #e8e8e8;
 }
 
 .NotificationsDropdown .Dropdown-toggle.new .Button-icon {
@@ -108,6 +108,13 @@ a.PostMention:hover {
 
 .Button.Button--link:hover {
   color: #fff;
+}
+
+.TagLabel { /* uppercase for .TagLabel-text (you can remove this) */
+  font-size: 85%;
+  font-weight: 600;
+  color: #fff;
+  text-transform: uppercase;
 }
 
 :root {
