@@ -6,6 +6,7 @@
 
 .App-header .Button, .App-header .Button:hover {
     color: #fff;
+    background-color: var(--header-bg);
 }
 
 .Button.Navigation-back {
