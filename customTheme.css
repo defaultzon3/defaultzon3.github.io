@@ -82,6 +82,10 @@ a {
     color: var(--heading-color);
 }
 
+button.Dropdown-toggle.Button {
+    color: #fff;
+}
+
 .Post-header, .Post-header a {
     color: #fff;
 }
