@@ -1,3 +1,9 @@
+.sideNav .Dropdown--select .Dropdown-menu>li>a:hover {
+    background: none;
+    color: #fff;
+    text-decoration: none;
+}
+
 .App-header .Button, .App-header .Button:hover {
     color: #fff;
 }
@@ -124,7 +130,7 @@ a.PostMention:hover {
     --badge-hidden-bg: #888;
     --usercard-bg: var(--control-bg);
     --hero-bg: #444446;
-    --hero-color: #6c8193;
+    --hero-color: #fff;
     --tooltip-bg: rgba(0,0,0,0.9);
     --tooltip-color: #fff;
     --online-user-circle-color: #7fba00;
