@@ -2,6 +2,10 @@
     color: #fff;
 }
 
+.Button.Navigation-back {
+    background-color: #444446;
+}
+
 .Button--primary {
     color: #fff;
 }
@@ -138,9 +142,4 @@
     --screen-desktop: 992px;
     --screen-desktop-max: 1099.98px;
     --screen-desktop-hd: 1100px;
-}
-
-.App-header .Button, .App-header .Button:hover {
-    color: var(--header-colored-control-color, #fff);
-    background: #444446;
 }
