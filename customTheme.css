@@ -8,6 +8,10 @@
     background-color: #932e2e;
 }
 
+button.Dropdown-toggle.Button.Button--icon.Button--flat {
+    background: none;
+}
+
 a {
     cursor: pointer;
     color: var(--heading-color);
