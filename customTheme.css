@@ -16,6 +16,7 @@
 
 .Button {
     color: #fff;
+    background-color: #444446;
 }
 
 .App-header .FormControl {
@@ -74,6 +75,10 @@ a.Scrubber-first:hover {
 
 a.PostMention:hover {
     color: var(--heading-color);
+}
+
+.Button.Button--link:hover {
+  color: #fff;
 }
 
 :root {
