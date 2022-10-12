@@ -4,6 +4,10 @@
     text-decoration: none;
 }
 
+.new .NotificationsDropdown-unread {
+    background-color: #932e2e;
+}
+
 a {
     cursor: pointer;
     color: var(--heading-color);
@@ -116,7 +120,7 @@ a.PostMention:hover {
     --header-bg: #333336;
     --header-color: #141a1f;
     --header-control-bg: #1f2d3a;
-    --header-control-color: #932e2e;
+    --header-control-color: #ddd;
     --overlay-bg: rgba(10,13,15,0.9);
     --code-bg: #0e1215;
     --code-color: #fff;
