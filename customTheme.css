@@ -12,6 +12,11 @@ button.Dropdown-toggle.Button.Button--icon.Button--flat {
     background: none;
 }
 
+.Post-body blockquote {
+  font-size: inherit;
+  color: #fff;
+}
+
 a {
     cursor: pointer;
     color: var(--heading-color);
@@ -80,7 +85,7 @@ a {
     background-color: #444446;
 }
 
-.PostMention, .UserMention {
+.PostMention, .UserMention, blockquote .PostMention, blockquote .UserMention {
     background-color: #444446;
     border-radius: 6px;
     color: var(--heading-color);
