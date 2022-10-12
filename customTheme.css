@@ -27,6 +27,10 @@ a {
     background-color: #444446;
 }
 
+.Button:active, .Button.active, .open>.Dropdown-toggle.Button {
+    background-color: #444446;
+}
+
 .Scrubber-description {
     color: #ffffff;
 }
