@@ -6,7 +6,15 @@
     background-color: #444446;
 }
 
+.Scrubber-description {
+    color: #ffffff;
+}
+
 .Button--primary {
+    color: #fff;
+}
+
+.Button {
     color: #fff;
 }
 
@@ -38,6 +46,36 @@
     font-weight: bold;
 }
 
+.AfruxWidgets-Widget-title-label {
+    background-color: #444446;
+}
+
+.PostMention, .UserMention {
+    background-color: #444446;
+    border-radius: 6px;
+    color: var(--heading-color);
+}
+
+.Post-header, .Post-header a {
+    color: #fff;
+}
+
+a.Scrubber-last:hover {
+    color: var(--muted-color);
+}
+
+a.Scrubber-first:hover {
+    color: var(--muted-color);
+}
+
+.Scrubber-bar {
+    background-color: var(--muted-color);
+}
+
+a.PostMention:hover {
+    color: var(--heading-color);
+}
+
 :root {
     --primary-color: #223240;
     --secondary-color: #223240;
@@ -48,7 +86,7 @@
     --text-color: #ddd;
     --link-color: #1d3245;
     --heading-color: #ddd;
-    --muted-color: #6c8193;
+    --muted-color: #a8a8a8;
     --muted-color-light: #8a9aa8;
     --muted-color-dark: #000;
     --shadow-color: rgba(0,0,0,0.5);
@@ -60,7 +98,7 @@
     --header-bg: #333336;
     --header-color: #141a1f;
     --header-control-bg: #1f2d3a;
-    --header-control-color: #1a242c;
+    --header-control-color: #932e2e;
     --overlay-bg: rgba(10,13,15,0.9);
     --code-bg: #0e1215;
     --code-color: #fff;
@@ -89,7 +127,7 @@
     --discussion-list-item-bg-hover: #171e23;
     --button-color: #6c8193;
     --button-bg: #444446;
-    --button-bg-hover: #101518;
+    --button-bg-hover: #444446;
     --button-bg-active: #060809;
     --button-bg-disabled: #444446;
     --button-primary-color: #141a1f;
