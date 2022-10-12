@@ -127,6 +127,8 @@ a.PostMention:hover {
     background-color: #932e2e; /* это можешь убрать */
 }
 
+/* это не убирать иначе все поломается */
+
 :root {
     --primary-color: #223240;
     --secondary-color: #223240;
