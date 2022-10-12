@@ -8,10 +8,6 @@
     color: #fff;
 }
 
-.new .NotificationsDropdown-unread {
-    background-color: #932e2e;
-}
-
 button.Dropdown-toggle.Button.Button--icon.Button--flat {
     background: none;
 }
@@ -118,11 +114,17 @@ a.PostMention:hover {
   color: #fff;
 }
 
-.TagLabel { /* uppercase for .TagLabel-text (you can remove this) */
-  font-size: 85%;
-  font-weight: 600;
-  color: #fff;
-  text-transform: uppercase;
+/* это можешь убрать если не нужно красное оповещение а также капслок в группе топика */
+
+.TagLabel {
+  font-size: 85%;  /* это можешь убрать */
+  font-weight: 600; /* это можешь убрать */
+  color: #fff; /* цвет */
+  text-transform: uppercase; /* это можешь убрать */
+}
+
+.new .NotificationsDropdown-unread {
+    background-color: #932e2e; /* это можешь убрать */
 }
 
 :root {
