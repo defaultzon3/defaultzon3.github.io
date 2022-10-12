@@ -4,6 +4,10 @@
     text-decoration: none;
 }
 
+.DiscussionListItem-count {
+    color: #fff;
+}
+
 .new .NotificationsDropdown-unread {
     background-color: #932e2e;
 }
@@ -33,6 +37,10 @@ a {
 
 .Scrubber-description {
     color: #ffffff;
+}
+
+.item-discussion-views {
+    color: #e3e3e3;
 }
 
 .Button--primary {
