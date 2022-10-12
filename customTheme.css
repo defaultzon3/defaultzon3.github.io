@@ -1,17 +1,17 @@
 .App-header .Button, .App-header .Button:hover {
-    color: #fbfbfb;
+    color: #fff;
 }
 
 .Button--primary {
-    color: #fbfbfb;
+    color: #fff;
 }
 
 .App-header .FormControl {
-    background: #fbfbfb;
+    background: #fff;
 }
 
 .App-header .FormControl:focus {
-    background: #fbfbfb;
+    background: #fff;
     color: #333;
 }
 
@@ -20,16 +20,127 @@
 }
 
 .NotificationsDropdown .Dropdown-toggle.new .Button-icon {
-    color: #fbfbfb;
+    color: #fff;
 }
 
 .App-header .Button:active, .App-header .Button.active, .App-header .Button:focus, .App-header .Button.focus, .App-header .open>.Dropdown-toggle.Button {
     background: #1f2d3a;
-    color: #fbfbfb;
+    color: #fff;
 }
 
 .sideNav .Dropdown--select .Dropdown-menu>li.active>a {
     background: none;
-    color: #fbfbfb;
+    color: #fff;
     font-weight: bold;
+}
+
+:root {
+    --primary-color: #223240;
+    --secondary-color: #223240;
+    --body-bg: #222226;
+    --body-bg-shaded: #0e1215;
+    --body-bg-light: #1f272e;
+    --body-bg-faded: rgba(20,26,31,0.93);
+    --text-color: #ddd;
+    --link-color: #1d3245;
+    --heading-color: #ddd;
+    --muted-color: #6c8193;
+    --muted-color-light: #8a9aa8;
+    --muted-color-dark: #000;
+    --shadow-color: rgba(0,0,0,0.5);
+    --control-bg: #444446;
+    --control-bg-light: #212931;
+    --control-bg-shaded: #12171c;
+    --control-color: #6c8193;
+    --error-color: #d83e3e;
+    --header-bg: #333336;
+    --header-color: #141a1f;
+    --header-control-bg: #1f2d3a;
+    --header-control-color: #1a242c;
+    --overlay-bg: rgba(10,13,15,0.9);
+    --code-bg: #0e1215;
+    --code-color: #fff;
+    --alert-bg: #fff2ae;
+    --alert-color: #ad6c00;
+    --alert-error-bg: #d83e3e;
+    --alert-error-color: #fff;
+    --alert-success-bg: #b4f1af;
+    --alert-success-color: #33722d;
+    --switch-on-color: #58a400;
+    --switch-off-color: #d0021b;
+    --enabled-color: #2ECC40;
+    --disabled-color: #FF4136;
+    --validation-error-color: #d83e3e;
+    --avatar-bg: var(--control-bg);
+    --badge-bg: var(--muted-color);
+    --badge-color: #fff;
+    --badge-hidden-bg: #888;
+    --usercard-bg: var(--control-bg);
+    --hero-bg: #444446;
+    --hero-color: #6c8193;
+    --tooltip-bg: rgba(0,0,0,0.9);
+    --tooltip-color: #fff;
+    --online-user-circle-color: #7fba00;
+    --discussion-title-color: #838587;
+    --discussion-list-item-bg-hover: #171e23;
+    --button-color: #6c8193;
+    --button-bg: #444446;
+    --button-bg-hover: #101518;
+    --button-bg-active: #060809;
+    --button-bg-disabled: #444446;
+    --button-primary-color: #141a1f;
+    --button-primary-bg: #333336;
+    --button-primary-bg-hover: #19252f;
+    --button-primary-bg-active: #10181f;
+    --button-primary-bg-disabled: #333336;
+    --control-danger-color: #a88;
+    --control-danger-bg: #411;
+    --control-danger-bg-hover: #300c0c;
+    --control-danger-bg-active: #1b0707;
+    --control-danger-bg-disabled: #411;
+    --muted-more-color: #5c6770;
+    --muted-more-bg: rgba(92,103,112,0.3);
+    --muted-more-bg-hover: rgba(80,90,98,0.35);
+    --muted-more-bg-active: rgba(69,77,84,0.4);
+    --muted-more-bg-disabled: rgba(92,103,112,0.3);
+    --button-inverted-color: #6c8193;
+    --button-inverted-bg: #141a1f;
+    --button-inverted-bg-hover: #0a0d0f;
+    --button-inverted-bg-active: #000;
+    --button-inverted-bg-disabled: #141a1f;
+    --light-content-color: #fff;
+    --light-content-control-color: #fff;
+    --light-content-control-bg: rgba(0,0,0,0.1);
+    --light-content-control-bg-shaded: rgba(0,0,0,0.2);
+    --light-content-control-bg-fadedin: rgba(0,0,0,0.15);
+    --header-colored-color: #141a1f;
+    --header-colored-control-color: #1a242c;
+    --header-colored-control-bg: #1f2d3a;
+    --header-colored-control-bg-shaded: #162029;
+    --header-colored-control-bg-fadedin: #1f2d3a;
+    --border-radius: 4px;
+    --drawer-width: 270px;
+    --pane-width: 400px;
+    --header-height: 52px;
+    --header-height-phone: 46px;
+    --zindex-header: 1000;
+    --zindex-pane: 1010;
+    --zindex-composer: 1020;
+    --zindex-dropdown: 1030;
+    --zindex-modal-background: 1040;
+    --zindex-modal: 1050;
+    --zindex-alerts: 1060;
+    --zindex-tooltip: 1070;
+    --flarum-screen: none;
+    --screen-phone-max: 767.98px;
+    --screen-tablet: 768px;
+    --screen-tablet-max: 991.98px;
+    --screen-desktop: 992px;
+    --screen-desktop-max: 1099.98px;
+    --screen-desktop-hd: 1100px;
+}
+
+.App-header .Button, .App-header .Button:hover {
+    color: var(--header-colored-control-color, #fff);
+    background: #444446;
 }
