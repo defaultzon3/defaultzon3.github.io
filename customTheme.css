@@ -119,20 +119,16 @@ a.PostMention:hover {
   color: #fff;
 }
 
-/* это можешь убрать если не нужно красное оповещение а также капслок в группе топика */
-
 .TagLabel {
-  font-size: 85%;  /* это можешь убрать */
-  font-weight: 600; /* это можешь убрать */
-  color: #fff; /* цвет */
-  text-transform: uppercase; /* это можешь убрать */
+  font-size: 85%;
+  font-weight: 600;
+  color: #fff;
+  text-transform: uppercase;
 }
 
 .new .NotificationsDropdown-unread {
-    background-color: #932e2e; /* это можешь убрать */
+    background-color: #932e2e;
 }
-
-/* это не убирать иначе все поломается */
 
 :root {
     --primary-color: #223240;
